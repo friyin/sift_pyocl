@@ -44,7 +44,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 
 
-import os, sys, glob, shutil, ConfigParser, platform
+import os, sys, glob, shutil, configparser, platform
 from distutils.core import setup, Extension, Command
 from numpy.distutils.misc_util import get_numpy_include_dirs
 from distutils.command.install_data import install_data
